@@ -21,7 +21,9 @@ This project deploys Suricata as an IDS in a controlled lab. It simulates real-w
 3️. Cross-Site Scripting (XSS)
 - Injection of malicious scripts into DVWA
 - Detection using custom Suricata HTTP rules
-# Suricata Configuration:*
+# Suricata and DVWA Configuration:
+configure DVWA:
+https://github.com/digininja/DVWA
 use this documentation to install and configure suricata: https://docs.suricata.io/en/latest/quickstart.html 
 
 Main steps:
@@ -39,7 +41,7 @@ sudo suricata -i [interface]
 ✔ Analyze Suricata alert logs  
 ✔ Create custom detection rules  
 # Future Improvements:
-• Integrate ELK Stack (Elasticsearch + Kibana)
-• Add more attack scenarios
-• Improve rule tuning and false positive reduction
+ • Integrate ELK Stack (Elasticsearch + Kibana)
+ • Add more attack scenarios
+ • Improve rule tuning and false positive reduction
 
