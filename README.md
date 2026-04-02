@@ -24,6 +24,7 @@ This project deploys Suricata as an IDS in a controlled lab. It simulates real-w
 # Suricata and DVWA Configuration:
 configure DVWA:
 https://github.com/digininja/DVWA
+
 use this documentation to install and configure suricata: https://docs.suricata.io/en/latest/quickstart.html 
 
 Main steps:
