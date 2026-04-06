@@ -1,0 +1,2 @@
+1. brute force rule
+alert http any any -> 192.168.1.3 any (msg:"DVWA brute force attack detected"; http.referer; content:"/DVWA/vulnerabilities/brute/"; threshold:type threshold, track by_src, count 10, seconds 30; sid:1000010; rev:1;)
