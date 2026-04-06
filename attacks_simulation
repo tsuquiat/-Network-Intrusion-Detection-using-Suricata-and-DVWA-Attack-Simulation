@@ -1,0 +1,2 @@
+1.brute force with burp suite
+intercept the traffic, send it to the intruder and select the username and password position in the payload, selsct options(type of attack, with a list or without..) and run it , the output that has a diffrent lenght size than the others is the correct one ,
