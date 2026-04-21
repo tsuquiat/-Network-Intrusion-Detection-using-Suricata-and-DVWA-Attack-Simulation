@@ -5,7 +5,7 @@ This project deploys Suricata as an IDS in a controlled lab. It simulates real-w
 - Suricata (IDS )
 - Kali Linux (attacker machine)
 - Ubuntu Server (target system)
-- DVWA – Damn Vulnerable Web Application
+- DVWA : Damn Vulnerable Web Application
 - Nmap
 - SQLMap
 # Attack Scenarios:
