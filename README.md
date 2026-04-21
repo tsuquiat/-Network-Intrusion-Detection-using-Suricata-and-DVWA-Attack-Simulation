@@ -41,8 +41,5 @@ sudo suricata -i [interface]
 ✔ Detect real cyber attack scenarios  
 ✔ Analyze Suricata alert logs  
 ✔ Create custom detection rules  
-# Future Improvements:
- • Integrate ELK Stack (Elasticsearch + Kibana)
- • Add more attack scenarios
- • Improve rule tuning and false positive reduction
+
 
